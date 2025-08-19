@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: arial;
+    
+}
+body{ 
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+   background-attachment: fixed;
+   width: 500px;
+   animation: backgroundChange 15s infinite; 
+
+
+        
+    }
+
+    
+    @keyframes backgroundChange {
+        0% {
+            background-image: url('666.jpg'); 
+            
+        }
+        33% {
+            background-image: url('555.jpg'); 
+        }
+        66% {
+            background-image: url('888.jpg'); 
+        }
+        100% {
+            background-image: url('666.jpg'); 
+            
+        }
+
+}
+header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 0 10px #000;
+    background: rgba(0,0,0,0,5);
+    
+    
+    
+}
+#chk1{
+    display: none;
+}
+i{
+    color:rgb(84, 71, 63);
+    cursor: pointer;
+}
+header .logo{
+    flex: 1;
+    color:rgb(84, 71, 63);
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+header  .search-box{
+    flex: 1;
+    position: relative;
+}
+.search-box input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: #f2f2f2;
+    border-radius: 30px;
+    color: rgb(14, 13, 13);
+    font-size: 16px;
+    text-align: center;
+}
+.search-box button{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: scale(0.9);
+    background:rgb(223, 218, 222);
+}
+header ul{
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+header ul li a:hover{
+    border-bottom: 2px solid cadetblue;
+}
+header .menu{
+    font-size: 2.5em;
+    display: none;
+}
+.logo {
+    background-size: cover;
+    width: 200px; 
+    height: 1%;
+    padding:0 0 0 10px;
+    margin-right:100px;
+}
+.write{
+    display: flex;
+    justify-content: center; 
+    align-items: center;                          
+    height: 50vmax;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left: 320px;
+    color:white;
+  }
+  .para{
+    color: white;
+    position: absolute;
+    left: 460px;
+    top: 370px;
+    
+
+  }
+  .but{
+    display: inline-block;
+    position: relative;
+    left: 550px;
+    top: 400px;
+    border-radius: 8px;
+    background-color: cornflowerblue;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+  }

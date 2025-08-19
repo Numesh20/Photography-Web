@@ -1,0 +1,169 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(23, 201, 214);
+    margin: 0;
+    padding: 0;
+}
+
+.service-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    top: 50px;
+    box-shadow: 0 0 10px black;
+}
+
+.service {
+    display: grid;
+    grid-template-columns: 1fr 1fr 100px;
+    align-items: center;
+    background-color:rgb(246, 239, 189);
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.service-content {
+    grid-column: 1 / 1;
+}
+
+.service-image {
+    width: 150px;
+    height: auto;
+    grid-column: 2/ 3;
+    
+}
+
+.btn {
+    grid-column: 4 / 5;
+    padding: 10px 15px;
+    background-color: #6c4e21;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.date, .price {
+    color:rgb(0, 0, 0);
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.service-title {
+    font-size: 24px;
+    margin: 5px 0;
+    color: rgb(25, 33, 94);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.service-description {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: arial; 
+    
+}
+
+
+
+
+
+header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+    box-shadow: 0 0 10px #000;
+    background: rgba(0,0,0,0,5);
+    
+    
+    
+}
+#chk1{
+    display: none;
+}
+i{
+    color:rgb(84, 71, 63);
+    cursor: pointer;
+}
+header .logo{
+    flex: 1;
+    color:rgb(84, 71, 63);
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+header  .search-box{
+    flex: 1;
+    position: relative;
+}
+.search-box input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: #ddd3d3;
+    border-radius: 30px;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
+.search-box button{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: scale(0.9);
+    background:rgb(240, 147, 240);
+}
+header ul{
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+header ul li a:hover{
+    border-bottom: 2px solid cadetblue;
+}
+header .menu{
+    font-size: 2.5em;
+    display: none;
+}
+.logo {
+    background-size: cover;
+    width: 200px; 
+    height: 1%;
+    padding:0 0 0 10px;
+    margin-right:100px;
+}
+
+
+
+
+
+
